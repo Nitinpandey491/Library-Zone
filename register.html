@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="s2.css">
+</head>
+<body>
+    <header>
+        <div id="top">LIBRARY MANAGEMENT SYSTEM</div>
+        <div class="logo"><h2>LIBRARY<b style="color: #2c7ad6;">ZONE</b></h2></div>
+        <nav class="navigation">
+            <a id="anchor" class="fa fa-home" href="home.html">Home</a>
+            <a id="anchor" class="fa fa-registered" href="register.html" target="_blank">Register</a>
+            <a id="anchor" class="fa fa-user" href="index.html" target="_blank">Login</a>
+            <a id="anchor" class="fa fa-user" href="admin.html" target="_blank">Admin Login</a>
+        </nav>
+    </header>
+    <main>
+        <div id="slider">
+        <div id="d1">
+            <h1 style="text-align: center;" id="s1">STUDENT REGISTER</h1>
+            <form>
+                <div id="f1">
+            NAME<br><input type="text" class="t" placeholder="Enter Full Name" required/><br>
+            USERNAME<br><input type="text"class="t" placeholder="Enter Username"/><br>
+            EMAIL<br><input type="email" class="t" placeholder="Enter Email" required/><br>
+            PASSWORD <br><input type="password"class="t" placeholder="Enter Password"/><br>
+            COURSE<br> <input type="text" class="t" list="cour-options" placeholder="Enter Course Name" required>
+            <datalist id="cour-options">
+              <option value="FYCS">FYCS</option>
+              <option value="SYCS">SYCS</option>
+              <option value="TYCS">TYCS</option>
+            </datalist><br>
+            ID NO<br><input type="number" class="t" placeholder="Enter ID Number" required/><br>
+            <a href="#"><button style="height: 40px;width:75%;background-color: #2c7ad6;">
+            REGISTER
+            </button>
+            </a>
+                </div>
+            </form>
+        </div>
+        <div id="d2">
+            <h1 style="text-align: center;" id="s2">TEACHER REGISTER</h1>
+            <form>
+                <div id="f2">
+                NAME<br><input type="text" class="t" placeholder="Enter Full Name" required/><br>
+                USERNAME <br><input type="text" class="t" placeholder="Enter Username" required/><br>
+                EMAIL<br><input type="email" class="t" placeholder="Enter Email" required/><br>
+                PASSWORD <br><input type="password"class="t" placeholder="Enter Password" required/><br>
+                DEPARTMENT<br> <input type="text" class="t" list="dept-options" placeholder="Enter Department Name" required>
+                <datalist id="dept-options">
+                  <option value="CS">CS</option>
+                  <option value="IT">IT</option>
+                  <option value="Data Science">Data Science</option>
+                  <option value="Mathematics">Mathematics</option>
+                  <option value="Physics">Physics</option>
+                </datalist><br>
+                ID NO<br><input type="number" class="t" placeholder="Enter ID Number" required/><br>
+                <a href="#"><button style="height: 40px;width:75%;background-color: #2c7ad6;">
+                REGISTER
+                </button>
+                </a>
+                </div>
+            </form>
+        </div>
+        <div id="d3">WELCOME TO LIBRARY<b style="color: #2c7ad6;">ZONE</b>
+            <p style="font-size: 15PX;">ENJOY YOUR BOOK</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer">
+            <h3>Stay Connected</h3>
+            <a href="#" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
+            <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            
+            <a href="#" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            <h2>Contact Address</h2>
+            <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
+            146 vadawali section, Ambarnath(E) 421501
+            </a> <br>
+            <a href="#" class="fa fa-phone" style="text-decoration: none; padding: 10px 12px;color: white;">
+            +91-7317
+            </a> <br>
+            <a href="#" class="fa fa-envelope" style="text-decoration: none; padding: 10px 12px; color:white;">
+            nitinpandey2916@gmail.com
+            </a>
+            <p id="footer2">Developed By : Nitin </p>
+        </div>
+    </footer>
+</body>
+</html>

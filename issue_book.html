@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>issue_book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="s7.css">
+</head>
+<body>
+    <header>
+        <div id="top">LIBRARY MANAGEMENT SYSTEM</div>
+        <div class="logo"><h2>LIBRARY<b style="color: #2c7ad6;">ZONE</b></h2></div>
+        <nav class="navigation">
+            <a id="anchor" class="fa fa-book" href="manage_book.html" target="_blank">Manage books</a>
+            <a id="anchor" class="fa fa-book" href="issue_book.html">Issue books</a>
+            <a id="anchor" class="fa fa-sign-out" href="admin.html" target="_blank">Log Out</a>
+        </nav>
+    </header>
+    <main>
+        <div id="slider">
+        <div id="d2">
+            <h1 style="text-align: center;" id="s2">ISSUE BOOK</h1>
+            <form id="add-issue-form">
+                <div id="f2">
+                Book name <br><input type="text"class="t" id="book-name" placeholder="Enter BookName" required/><br>
+                User Type<br><input type="text"class="t" id="user-type" placeholder="Enter User Type" required/><br>
+                ID number<br><input type="text"class="t" id="id-number" placeholder="Enter ID Number" required/><br>
+                From<br><input type="text"class="t" id="d-from" placeholder="Enter Date" required/><br>
+                To<br><input type="text"class="t" id="d-to" placeholder="Enter Date" required/><br>
+                <button id="add-issue-btn" style="height: 40px;width:75%;background-color: #2c7ad6;">
+                Issue Book
+                </button>
+                </div>
+                </form>
+        </div>
+        <div id="d3">WELCOME TO LIBRARY<b style="color: #2c7ad6;">ZONE</b>
+            <p style="font-size: 15PX;">ENJOY YOUR BOOK</p>
+            </div>
+        </div>
+        <div id="table">
+            <h2 style="text-align: center;">Issue Books</h2>
+            <table id="issue-books-table">
+                <thead>
+                    <tr>
+                        <th>Book name</th>
+                        <th>User Type</th>
+                        <th>ID number</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="issue-books-tbody">
+                </tbody>
+            </table>
+        </div>
+        <script src="script2.js"></script>
+    </main>
+    <footer>
+        <div id="footer">
+            <h3>Stay Connected</h3>
+            <a href="#" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
+            <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            
+            <a href="#" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            <h2>Contact Address</h2>
+            <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
+            146 vadawali section, Ambarnath(E) 421501
+            </a> <br>
+            <a href="#" class="fa fa-phone" style="text-decoration: none; padding: 10px 12px;color: white;">
+            +91-7317
+            </a> <br>
+            <a href="#" class="fa fa-envelope" style="text-decoration: none; padding: 10px 12px; color:white;">
+            nitinpandey2916@gmail.com
+            </a>
+            <p id="footer2">Developed By : Nitin </p>
+        </div>
+    </footer>
+</body>
+</html>

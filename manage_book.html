@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manage_book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="s6.css">
+</head>
+<body>
+    <header>
+        <div id="top">LIBRARY MANAGEMENT SYSTEM</div>
+        <div class="logo">
+            <h2>LIBRARY<b style="color: #2c7ad6;">ZONE</b></h2>
+        </div>
+        <nav class="navigation">
+            <a id="anchor" class="fa fa-book" href="manage_book.html">Manage books</a>
+            <a id="anchor" class="fa fa-book" href="issue_book.html" target="_blank">Issue books</a>
+            <a id="anchor" class="fa fa-sign-out" href="admin.html" target="_blank">Log Out</a>
+        </nav>
+    </header>
+    <main>
+        <div id="slider">
+            <div id="d2">
+                <h1 style="text-align: center;" id="s2">ADD BOOK</h1>
+                <form id="add-book-form">
+                    <div id="f2">
+                        Book Title<br>
+                        <input type="text" class="t" id="book-title" placeholder="Enter BookName" required/><br>
+                        Book Author<br>
+                        <input type="text" class="t" id="book-author" placeholder="Enter BookAuthor" required/><br>
+                        Book ISBN<br>
+                        <input type="text" class="t" id="book-isbn" placeholder="Enter BookISBN" required/><br>
+                        <button type="submit" id="add-book-btn" style="height: 40px; width: 75%; background-color: #2c7ad6;">
+                            Add Book
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div id="d3">
+                WELCOME TO LIBRARY<b style="color: #2c7ad6;">ZONE</b>
+                <p style="font-size: 15px;">ENJOY YOUR BOOK</p>
+            </div>
+        </div>
+        <div id="table">
+            <h2 style="text-align: center;">Manage Books</h2>
+            <table id="books-table">
+                <thead>
+                    <tr>
+                        <th>Book Title</th>
+                        <th>Book Author</th>
+                        <th>Book ISBN</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="books-tbody">
+                </tbody>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <div id="footer">
+            <h3>Stay Connected</h3>
+            <a href="#" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
+            <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            
+            <a href="#" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            <h2>Contact Address</h2>
+            <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
+            146 vadawali section, Ambarnath(E) 421501
+            </a> <br>
+            <a href="#" class="fa fa-phone" style="text-decoration: none; padding: 10px 12px;color: white;">
+            +91-7317
+            </a> <br>
+            <a href="#" class="fa fa-envelope" style="text-decoration: none; padding: 10px 12px; color:white;">
+            nitinpandey2916@gmail.com
+            </a>
+            <p id="footer2">Developed By : Nitin </p>
+        </div>
+    </footer>
+</body>
+</html>
