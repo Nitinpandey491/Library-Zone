@@ -41,11 +41,11 @@
 
 📄 Screenshots:
 
----> [User Login Page (Student & Teacher)](Application_UI/Login_Page.jpg)
+---> [User Login Page (Student & Teacher)](Application_UI/Login_Page.png)
 
----> [Admin Login Page](Application_UI/Admin_Login_Page.jpg)
+---> [Admin Login Page](Application_UI/Admin_Login_Page.png)
 
----> [Registration Page](Application_UI/Register_Page.jpg)
+---> [Registration Page](Application_UI/Register_Page.png)
 
 
 3️⃣ 👨‍💼 Admin Panel Module
@@ -54,7 +54,7 @@
 
 📄 Screenshots:
 
----> [Admin Dashboard Panel](Application_UI/Admin_Page_1.jpg)
+---> [Admin Dashboard Panel](Application_UI/Admin_Page_1.png)
 
 ---> [Manage Books (Add & Delete)](Application_UI/Admin_Page_2.jpg)
 
@@ -67,7 +67,7 @@
 
 📄 Screenshots:
 
----> [Student Dashboard](Application_UI/Student_Page_1.jpg)
+---> [Student Dashboard](Application_UI/Student_Page_1.png)
 
 ---> [View All Books List](Application_UI/Student_Page_2.jpg)
 
@@ -75,6 +75,8 @@
 
 ---> [Change Password Page](Application_UI/Student_Page_4.jpg)
 ---
+
+> **Note:** The user interface for the **Teacher Module** is functionally and visually similar to the **Student Module** shown above. To maintain brevity and avoid redundancy, separate screenshots for the Teacher panel have been omitted.
 
 ## 🛠️ Tech Stack Used
 
