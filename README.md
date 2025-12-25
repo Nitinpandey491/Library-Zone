@@ -1,7 +1,5 @@
 # 📚 LIBRARYZONE - Library Management System
 
-![Project Banner](Home_Page.jpg)
-
 > **LIBRARYZONE** is a web-based Library Management System designed to streamline the operations of a library. It provides distinct portals for **Administrators**, **Teachers**, and **Students** to manage books, issue records, and user profiles efficiently.
 
 ---
@@ -30,15 +28,15 @@
 
 | **Home Page** | **Registration Page** |
 |:---:|:---:|
-| ![Home](Home_Page.jpg) | ![Register](Register_Page.jpg) |
+| ![Home](Application_UI/Home_Page.jpg) | ![Register](Application_UI/Register_Page.jpg) |
 
 | **Admin Manage Books** | **Student Panel** |
 |:---:|:---:|
-| ![Admin Books](Admin_Page_2.jpg) | ![Student Panel](Student_Page_1.jpg) |
+| ![Admin Books](Application_UI/Admin_Page_2.jpg) | ![Student Panel](Application_UI/Student_Page_1.jpg) |
 
 | **Issue Book Form** | **Login Page** |
 |:---:|:---:|
-| ![Issue Book](Student_Page_3.jpg) | ![Login](Login_Page.jpg) |
+| ![Issue Book](Application_UI/Student_Page_3.jpg) | ![Login](Application_UI/Login_Page.jpg) |
 
 ---
 
@@ -91,7 +89,7 @@ Double-click on `home.html` or `index.html` to open the application in your web 
 
 ## 👤 Author
 
-**Nitin Pandey**
+**Nitin Vinay Pandey**
 
 * Developer & Designer
 
