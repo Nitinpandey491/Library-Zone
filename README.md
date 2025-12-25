@@ -74,6 +74,7 @@
 ---> [Issue Book Request Form](Application_UI/Student_Page_3.jpg)
 
 ---> [Change Password Page](Application_UI/Student_Page_4.jpg)
+
 ---
 
 > **Note:** The user interface for the **Teacher Module** is functionally and visually similar to the **Student Module** shown above. To maintain brevity and avoid redundancy, separate screenshots for the Teacher panel have been omitted.
