@@ -24,20 +24,56 @@
 
 ---
 
-## 📸 Screenshots
+📂 LIBRARYZONE – UI Screens (Section-wise Grouping)
 
-| **Home Page** | **Registration Page** |
-|:---:|:---:|
-| ![Home](Application_UI/Home_Page.jpg) | ![Register](Application_UI/Register_Page.jpg) |
+1️⃣ 🏠 Home & Landing Module
 
-| **Admin Manage Books** | **Student Panel** |
-|:---:|:---:|
-| ![Admin Books](Application_UI/Admin_Page_2.jpg) | ![Student Panel](Application_UI/Student_Page_1.jpg) |
+---> Main landing page with navigation to Login and Registration.
 
-| **Issue Book Form** | **Login Page** |
-|:---:|:---:|
-| ![Issue Book](Application_UI/Student_Page_3.jpg) | ![Login](Application_UI/Login_Page.jpg) |
+📄 Screenshots:
 
+---> [Home Page](Application_UI/Home_Page.jpg)
+
+
+2️⃣ 🔐 Authentication Module
+
+---> Dedicated login interfaces for Students, Teachers, and Admins, plus Registration forms.
+
+📄 Screenshots:
+
+---> [User Login Page (Student & Teacher)](Application_UI/Login_Page.jpg)
+
+---> [Admin Login Page](Application_UI/Admin_Login_Page.jpg)
+
+---> [Registration Page](Application_UI/Register_Page.jpg)
+
+
+3️⃣ 👨‍💼 Admin Panel Module
+
+---> Dashboard for Librarians to add books, manage inventory, and handle book issues.
+
+📄 Screenshots:
+
+---> [Admin Dashboard Panel](Application_UI/Admin_Page_1.jpg)
+
+---> [Manage Books (Add & Delete)](Application_UI/Admin_Page_2.jpg)
+
+---> [Issue Books Management](Application_UI/Admin_Page_3.jpg)
+
+
+4️⃣ 🎓 Student Panel Module
+
+---> Student interface to view available books, request book issues, and manage account security.
+
+📄 Screenshots:
+
+---> [Student Dashboard](Application_UI/Student_Page_1.jpg)
+
+---> [View All Books List](Application_UI/Student_Page_2.jpg)
+
+---> [Issue Book Request Form](Application_UI/Student_Page_3.jpg)
+
+---> [Change Password Page](Application_UI/Student_Page_4.jpg)
 ---
 
 ## 🛠️ Tech Stack Used
